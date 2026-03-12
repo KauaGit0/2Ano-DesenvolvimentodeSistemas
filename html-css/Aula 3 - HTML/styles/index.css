@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: rgb(180, 218, 240);
+}
+
+header, footer{
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+    background-color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px 0px;
+    text-align: center;
+    margin: 5px auto;
+    font-size: 35px;
+}
+
+/* Se tiver scroll nao deixe esse codigo */
+footer{
+    width: 100%;
+    /* position: absolute; */
+    bottom: 0%;
+    font-size: 15px;
+
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    margin: 30px auto;
+    width: 75%;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.jogo{
+    width: 100%;
+    margin: 20px auto;
+    /* display: flex; */
+}
+
+.descJogo,.imagemJogo{
+width: 100%;
+}
+
+.imagemJogo img{
+width: 50%;
+
+}
