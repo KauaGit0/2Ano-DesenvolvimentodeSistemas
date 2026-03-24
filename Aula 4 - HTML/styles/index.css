@@ -1,0 +1,17 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.pai{
+    width: 100%;
+    padding: 20px;
+    background-color: darkgray;
+    display: flex;
+}
+
+.filho{
+    padding: 20px;
+    margin: 10px 0px;
+    background-color: purple;
+}
