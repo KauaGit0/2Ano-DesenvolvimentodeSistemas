@@ -1,0 +1,67 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 2px;
+}
+header aside{
+    width: 50%;
+    padding: 5px 0px;
+    display: flex;
+    /* Distancia entre textos*/
+
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+} 
+
+#headerEsquerdo{
+    background-color: grey;
+}
+
+#headerDireito{
+    background-color: lightgrey;
+    justify-content: end;
+}
+
+ a{
+    color: purple;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner, #banner2, #banner3{
+    width: 800px;
+    height: 450px;
+    background-color: black;
+    margin: 30px 0px;
+    background-image: url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: center;
+    color: white;
+}
+#banner2{
+    background-image:url('../images/noti.jpg');
+    width: 700px;
+    height: 400px;
+}
+
+#banner3{
+    background-image:url('../images/praia.jpg');
+    width: 800px;
+    height: 450px;
+
+}

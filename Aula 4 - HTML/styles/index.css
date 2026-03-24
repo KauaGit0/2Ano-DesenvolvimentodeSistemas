@@ -8,6 +8,7 @@ body{
     padding: 20px;
     background-color: darkgray;
     display: flex;
+    flex-direction: row;
 }
 
 .filho{
