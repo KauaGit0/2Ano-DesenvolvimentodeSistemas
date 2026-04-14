@@ -91,3 +91,6 @@ form {
 .tabelaT{
     font-family: var(--fontePrimaria);
 }
+.tabela{
+    font-family: Roboto;
+}
