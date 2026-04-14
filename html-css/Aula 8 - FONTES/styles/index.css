@@ -1,4 +1,29 @@
+
+
+@font-face {
+    font-family: Nasalization;
+    font-weight: normal;
+    src: url('../fonts/nasalization/Nasalization\ Rg.otf');
+}
+
+@font-face {
+    font-family: Fake_Identity;
+    src: url(../fonts/fake_identity/Fake\ Identity.ttf);
+}
+
 *{
     padding: 0%;
     margin: 0%;
+}
+:root{
+    --fontePrimaria:  Nasalization;
+    --fonteSercundaria: Fake_Identity;
+}
+
+h1, h3{
+    font-family: var(--fonteSercundaria);
+}
+
+p{
+    font-family: Google Sans;
 }
