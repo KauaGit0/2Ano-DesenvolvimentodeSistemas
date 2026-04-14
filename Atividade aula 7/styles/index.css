@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Nasalization;
+    src: url(../fonts/nasalization/Nasalization\ Rg.otf);
+}
 * {
     padding: 0%;
     margin: 0%;
@@ -80,3 +84,10 @@ form {
     background-color: rgb(174, 171, 171); /* Usa a cor de fundo do seu body para destacar o título */
     font-weight: bold;
 }	
+
+:root{
+    --fontePrimaria: Nasalization;
+}
+.tabelaT{
+    font-family: var(--fontePrimaria);
+}
