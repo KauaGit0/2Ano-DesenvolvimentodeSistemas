@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Shelten;
+    src: url(../fonts/Shelten.ttf);
+}
+@font-face {
+    font-family: Chunky-Funks;
+    src: url(../fonts/Chunky\ Funks\ Italic.ttf);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+:root{
+    --fonte: Shelten;
+    --fonte2: Chunky-Funks;
+}
+ 
+
+.fonte{
+    font-family: Roboto;
+}
