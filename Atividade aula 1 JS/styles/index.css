@@ -17,5 +17,9 @@
  
 
 .fonte{
+    font-family: Anton;
+}
+
+#resposta1, #resposta2{
     font-family: Roboto;
 }
