@@ -65,6 +65,7 @@ se(v1[i] = v2[i]) entao
 
 fimSe
 fimPara
+ 
 
 // Exercicio 3
 
