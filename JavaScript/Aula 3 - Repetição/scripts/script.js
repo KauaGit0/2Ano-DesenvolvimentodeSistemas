@@ -1,33 +1,33 @@
-function aula() {
-    // enquanto () faca ...
-    // para con ate con2 interable
-    var i = 1;
+// function aula() {
+//     // enquanto () faca ...
+//     // para con ate con2 interable
+//     var i = 1;
     
-    // while (i <= 10) {
-    //  console.log(i);
-    // i++
+//     while (i <= 10) {
+//      console.log(i);
+//      i++
 
-    // }
-    while (false) {
-        var pergunta = confirm("Repete? ");
+//     }
+//     while (false) {
+//         var pergunta = confirm("Repete? ");
 
-        if (pergunta == false) {
-            break;
-        }
-    }
-    for(var i; i <= 10; i++) {
-        document.querySelector('main').innerHTML += `
-        <p> Sou top em programação </p>
+//         if (pergunta == false) {
+//             break;
+//         }
+//     }
+//     for(var i; i <= 10; i++) {
+//         document.querySelector('main').innerHTML += `
+//         <p> Sou top em programação </p>
         
-        `;
-    }
-    // faz verificação(aceita false)
+//         `;
+//     }
+//     Faz verificação(aceita false)
 
-    do{
-        console.log(i);
-        i++
-    }while(i<10);
-}
+//     do{
+//         console.log(i);
+//         i++
+//     }while(i<10);
+// }
 
 function produtos(){
     for(var i = 0;i<10;i++){
