@@ -34,8 +34,8 @@ function produtos(){
         document.getElementById("produtos").innerHTML += `
         <div class="produto">
                 <img src="https://jadoces.com.br/wp-content/uploads/2023/09/bob-pirulito-blong-28-melancia-672g_06fa6681d3debf075f95575d590cf09b.png.webp" alt="">
-                <h1>Pirulito</h1>
-                <p>R$ 20</p>
+                <h1>Saco de pirulitos</h1>
+                <p>R$ 25</p>
                 <button type="button">Comprar</button>
         `;
     }
