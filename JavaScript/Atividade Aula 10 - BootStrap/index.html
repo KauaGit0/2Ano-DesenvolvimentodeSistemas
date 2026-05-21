@@ -1,118 +1,178 @@
 <!DOCTYPE html>
-<html lang="br">
+<html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividade</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atividade - Jogos</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">👾Jogos🎮</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <section class="w-100 vh-100 d-flex align-items-center justify-content-center gap-3">
-        <div class="card" style="width: 18rem;">
-            <img src="https://assetsio.gnwcdn.com/Forza-Horizon-6-i.jpg?width=690&quality=85&format=jpg&dpr=3&auto=webp"
-                class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title ">Forza Horizon 6</h5>
-                <p class="card-text">Forza Horizon 6 foi lançado oficialmente em 19 de maio de 2026, levando o aclamado
-                    festival de corrida de mundo aberto diretamente para o Japão. Desenvolvido pela Playground Games com
-                    o
-                    auxílio da Turn 10 Studios, o jogo estreou com excelente recepção da crítica, alcançando uma nota 91
-                    no
-                    Metacritic e ultrapassando a marca de 6 milhões de jogadores em menos de uma semana.</p>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="https://images.squarespace-cdn.com/content/v1/606d4deb4db8c15ea53b3624/1618824875786-3V9HT8BLB1L5PEEJC6ZQ/124.jpg"
-                class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title ">Hollow Knight</h5>
-                <p class="card-text">Hollow Knight é um jogo indie de gênero metroidvania desenvolvido e publicado pela
-                    Team
-                    Cherry, lançado para Microsoft Windows, macOS e Linux em 2017 e, posteriormente, para Nintendo
-                    Switch,
-                    Playstation 4 e Xbox One em 2018.</p>
-            </div>
-        </div>
+<body class="bg-light">
 
-        <div class="card" style="width: 18rem;">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUA2G0vZOueDHGZNxPNQeHAQDfhF9KR29mww&s"
-                class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Spider Man 2</h5>
-                <p class="card-text">Marvel's Spider-Man 2 é um jogo eletrônico de ação-aventura desenvolvido pela
-                    Insomniac Games e publicado pela Sony Interactive Entertainment.</p>
-            </div>
-        </div>
-        <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="https://assetsio.gnwcdn.com/Forza-Horizon-6-i.jpg?width=690&quality=85&format=jpg&dpr=3&auto=webp"
-                        class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Forza Horizon 6</h5>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="https://images.squarespace-cdn.com/content/v1/606d4deb4db8c15ea53b3624/1618824875786-3V9HT8BLB1L5PEEJC6ZQ/124.jpg"
-                        class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Hollow Knight</h5>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREwtVs0ASj9v4oQuPd8LNCMPtPqdGiqC16Zg&s"
-                        class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Spider Man 2</h5>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">👾 Jogos 🎮</a>
 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Alternar navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#cards">Jogos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#carrossel">Carrossel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#informacoes">Informações</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container py-5">
+
+    <section class="text-center mb-5">
+      <h1 class="fw-bold">Página sobre jogos</h1>
+      <p class="text-muted mb-0">
+        Uma apresentação simples com cards, carrossel e informações organizadas no final.
+      </p>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
-        </script>
+
+    <section id="cards" class="mb-5">
+      <div class="row g-4">
+        <div class="col-12 col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://assetsio.gnwcdn.com/Forza-Horizon-6-i.jpg?width=690&quality=85&format=jpg&dpr=3&auto=webp"
+              class="card-img-top" alt="Imagem de Forza Horizon 6">
+            <div class="card-body">
+              <h5 class="card-title">Forza Horizon 6</h5>
+              <p class="card-text">
+                Jogo de corrida em mundo aberto, com foco em velocidade, exploração e eventos variados.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://images.squarespace-cdn.com/content/v1/606d4deb4db8c15ea53b3624/1618824875786-3V9HT8BLB1L5PEEJC6ZQ/124.jpg"
+              class="card-img-top" alt="Imagem de Hollow Knight">
+            <div class="card-body">
+              <h5 class="card-title">Hollow Knight</h5>
+              <p class="card-text">
+                Um metroidvania indie conhecido pela exploração, dificuldade e atmosfera marcante.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREwtVs0ASj9v4oQuPd8LNCMPtPqdGiqC16Zg&s"
+              class="card-img-top" alt="Imagem de Spider-Man 2">
+            <div class="card-body">
+              <h5 class="card-title">Spider-Man 2</h5>
+              <p class="card-text">
+                Jogo de ação e aventura com combate dinâmico, movimentação livre e história envolvente.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="carrossel" class="mb-5">
+      <div id="carouselJogos" class="carousel slide shadow-sm rounded overflow-hidden" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselJogos" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselJogos" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselJogos" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://assetsio.gnwcdn.com/Forza-Horizon-6-i.jpg?width=690&quality=85&format=jpg&dpr=3&auto=webp"
+              class="d-block w-100" alt="Forza Horizon 6">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Forza Horizon 6</h5>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="https://images.squarespace-cdn.com/content/v1/606d4deb4db8c15ea53b3624/1618824875786-3V9HT8BLB1L5PEEJC6ZQ/124.jpg"
+              class="d-block w-100" alt="Hollow Knight">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Hollow Knight</h5>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREwtVs0ASj9v4oQuPd8LNCMPtPqdGiqC16Zg&s"
+              class="d-block w-100" alt="Spider-Man 2">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Spider-Man 2</h5>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselJogos" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselJogos" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="informacoes" class="bg-white p-4 rounded shadow-sm">
+      <h2 class="h4 fw-bold mb-4">Informações dos jogos</h2>
+
+      <div class="mb-3">
+        <h5 class="mb-1">Forza Horizon 6</h5>
+        <p class="mb-0 text-muted">
+          Jogo de corrida em mundo aberto, com foco em velocidade, liberdade e eventos variados.
+        </p>
+      </div>
+
+      <div class="mb-3">
+        <h5 class="mb-1">Hollow Knight</h5>
+        <p class="mb-0 text-muted">
+          Jogo indie do gênero metroidvania, com exploração, desafios e visual artístico.
+        </p>
+      </div>
+
+      <div>
+        <h5 class="mb-1">Spider-Man 2</h5>
+        <p class="mb-0 text-muted">
+          Jogo de ação e aventura com combate rápido, história forte e movimentação fluida pela cidade.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    <p class="mb-0">Atividade feita com Bootstrap</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
