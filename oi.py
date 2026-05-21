@@ -1,12 +1,13 @@
 import random as aleatorio
 
-nRandom = aleatorio.randint(1, 100)
+n = aleatorio.randint(1, 100)
 
-while i != nRandom:
-    i = int(input("Digite um número: "))
-    if i < nRandom:
-        print("O número é maior")
-    elif i > nRandom:
-        print("O número é menor")
+while i != n:
+    if i = n:
+        print("Acertou!")
+    elif n < i:
+        print("O numero é menor")
     else:
-        print("Parabéns, você acertou!")
+        print("O numero é maior")
+
+print("Parabens")
