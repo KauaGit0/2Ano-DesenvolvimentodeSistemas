@@ -8,6 +8,7 @@ let jogoFavorito = {
     anoLancamento: 2017
 };
 
+
 console.log(online, typeof online)
 console.log(idade,typeof idade)
 console.log(nome,typeof nome)
