@@ -44,5 +44,5 @@ todosPersonagens.push(new PersonagensEspeciais (
     3,
     "Medio",
     "Normal"
-    ["Armas"]    
+    ["Armas"]
 ));
