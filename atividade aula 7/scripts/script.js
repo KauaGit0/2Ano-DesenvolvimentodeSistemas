@@ -1,7 +1,7 @@
 const nome = "Kauã"
-const idade = 16
-const online = true
-const partidas = [2, 3, 4]
+let idade = 16
+let online = true
+let pontuacoes = [2900, 3000, 4000]
 
 let jogoFavorito = {
     nome:"Hollow Knight", 
@@ -9,7 +9,13 @@ let jogoFavorito = {
 };
 
 
-console.log(online, typeof online)
-console.log(idade,typeof idade)
-console.log(nome,typeof nome)
-console.log(partidas,typeof partidas)
+console.log("Nome:", nome, "Tipo:", typeof nome);
+console.log("Idade:", idade, "Tipo:", typeof idade);
+console.log("Online:", online, "Tipo:", typeof online);
+console.log("Jogo Favorito:", jogoFavorito, "Tipo:", typeof jogoFavorito);
+console.log("Pontuações:", pontuacoes, "Tipo:", typeof pontuacoes);
+
+idade = 17;
+online = false;
+console.log("Nova idade:", idade);
+console.log("Novo status online:", online);
